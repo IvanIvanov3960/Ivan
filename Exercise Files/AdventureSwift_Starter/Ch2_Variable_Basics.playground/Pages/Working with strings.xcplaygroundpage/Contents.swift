@@ -13,13 +13,24 @@
  
  */
 // Test variable
-
+var dialog = "The Inkeeper's Heaven"
 
 // String data
+dialog.count
+dialog.isEmpty
+dialog.contains("s")
 
 
 // Append and Insert
+dialog.append(", weary travelers!")
 
 
 // Remove and Split
+dialog.removeLast()
+print(dialog)
+dialog.removeFirst()
+print(dialog)
+//dialog.removeAll()
+dialog.split(separator: ",")
+
 

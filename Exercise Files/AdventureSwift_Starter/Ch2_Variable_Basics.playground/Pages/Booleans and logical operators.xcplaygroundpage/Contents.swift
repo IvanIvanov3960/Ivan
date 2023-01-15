@@ -14,8 +14,13 @@
  
  */
 // Test variable
-
+var isActive: Bool = false
+var canMove = true
 
 // Logical operators (!, &&, ||)
+isActive = !isActive
+
+var playerControl = isActive && canMove
+var playerControl2 = isActive || canMove
 
 

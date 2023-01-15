@@ -13,6 +13,11 @@
 
 */
 // Creating optionals
+var itemGathered: String? = "Pickaxe"
+var isExchangable: Bool?
+
+print(itemGathered!)
+
 
 
 // Forced unwrapping
