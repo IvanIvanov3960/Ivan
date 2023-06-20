@@ -17,8 +17,18 @@
 
  */
 // Simple tuple
+var uppercutAttack: (String, Int, Bool) = ("Uppercut smash", 25, true)
+uppercutAttack.0
+uppercutAttack.1
+uppercutAttack.2
+
+var (attack, damage, rechargable) = uppercutAttack
+attack
+damage
+rechargable
 
 
+var shieldStompAttack
 
 
 // Naming tuple values

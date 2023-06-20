@@ -14,10 +14,15 @@
 
  */
 // Creating sets
-
+var activeQuests: Set<String> = ["Fetch", "catch", "Select", "Choose"]
+activeQuests.insert("alibaba")
+activeQuests.remove("Fetch")
+activeQuests.insert("Throw")
+activeQuests.sorted()
 
 // Inserting and removing elements
 
 
 // More common methods
 
+print(activeQuests)
